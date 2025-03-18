@@ -99,6 +99,7 @@ export const AcademicInformation = () => {
             {...register('roll')}
             error={Boolean(errors.roll)}
             helperText={errors.roll?.message}
+            type='number'
             label='Roll'
             size='small'
             slotProps={{ inputLabel: { shrink: true } }}
